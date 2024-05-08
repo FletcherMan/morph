@@ -84,4 +84,4 @@ nccc_geth: submodules
 	cd go-ethereum && env GO111MODULE=on GOWORK=off go run build/ci.go install ./cmd/geth
 
 test: 
-	echo "1234"
+	echo "12345"
